@@ -10,7 +10,7 @@ burger.addEventListener('click', () => {
     //animate links
     navlinks.forEach((link, index) => {
         if(link.style.animation) {
-            link.style.animation = '';
+            link.style.animation = ' ';
         } else {
             link.style.animation ='navlinkfade 0.5s ease forwards $(index / 7 + 0.3)s';
         }
